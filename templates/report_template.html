@@ -1,0 +1,22 @@
+<html>
+<head>
+    <title>VulnScanX Report</title>
+</head>
+
+<body>
+
+<h1>Vulnerability Report</h1>
+
+<h2>Risk Score: {{ risk }}</h2>
+
+<h3>XSS</h3>
+<p>{{ findings.xss }}</p>
+
+<h3>SQLi</h3>
+<p>{{ findings.sqli }}</p>
+
+<h3>Missing Headers</h3>
+<p>{{ findings.headers }}</p>
+
+</body>
+</html>
